@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AYd-GK-83a">
+                                <rect key="frame" x="-2" y="243" width="1234" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qual a rota de hoje?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3Y-Zy-eLR">
+                                        <rect key="frame" x="22" y="116" width="184" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Onde você está?" textAlignment="center" minimumFontSize="17" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="1pg-cu-dLQ" userLabel="Onde você está?">
+                                        <rect key="frame" x="22" y="148" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Qual o destino?" textAlignment="center" minimumFontSize="17" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="sgd-pq-JBn" userLabel="Qual o destino?">
+                                        <rect key="frame" x="22" y="194" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Quem você vai buscar? E onde?" textAlignment="center" minimumFontSize="17" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="du0-nW-LUv" userLabel="parada1">
+                                        <rect key="frame" x="22" y="240" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Quem você vai buscar? E onde?" textAlignment="center" minimumFontSize="17" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="ehi-lz-sW4" userLabel="parada2">
+                                        <rect key="frame" x="22" y="286" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Quem você vai buscar? E onde?" textAlignment="center" minimumFontSize="17" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="zdw-OC-UgF" userLabel="parada3">
+                                        <rect key="frame" x="22" y="332" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Quem você vai buscar? E onde?" textAlignment="center" minimumFontSize="17" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="fwc-CD-iWl" userLabel="parada4">
+                                        <rect key="frame" x="22" y="378" width="374" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pz-By-YD2" userLabel="Confirm">
+                                        <rect key="frame" x="20" y="430" width="376" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="confirma" title=""/>
+                                        <connections>
+                                            <action selector="getDistance:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G99-FV-Irv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quantos Passageiros são?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3r-rF-nMU">
+                                <rect key="frame" x="20" y="275" width="251" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyX-Vu-BIz">
+                                <rect key="frame" x="19" y="672" width="376" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Button2" title=""/>
+                                <connections>
+                                    <action selector="recalcAct" destination="BYZ-38-t0r" eventType="touchUpInside" id="0e2-LO-Xn4"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="dgg-P4-l3f" userLabel="num passageiros">
+                                <rect key="frame" x="22" y="307" width="374" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resumo de Cobranças" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaV-sH-HFA">
+                                <rect key="frame" x="20" y="275" width="207" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Detalhamento" textAlignment="center" minimumFontSize="14" background="Rectangle 27" disabledBackground="Rectangle 27" translatesAutoresizingMaskIntoConstraints="NO" id="bYq-iB-O6C" userLabel="detalhemento">
+                                <rect key="frame" x="22" y="307" width="374" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="travel-memes-funny-hilarious" translatesAutoresizingMaskIntoConstraints="NO" id="4ua-vT-kun">
+                                <rect key="frame" x="20" y="369" width="374" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J6z-lR-HZy" userLabel="toBlurView">
+                                <rect key="frame" x="-7" y="10" width="421" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcs-RT-Hrm" userLabel="about button">
+                                        <rect key="frame" x="20" y="30" width="66" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="about icon" title=""/>
+                                        <connections>
+                                            <action selector="openAbout" destination="BYZ-38-t0r" eventType="touchUpInside" id="p7c-GV-EaB"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Olá, Guilherme!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYd-Ha-7wJ" userLabel="profileTag">
+                                        <rect key="frame" x="142" y="225" width="144" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mask group" translatesAutoresizingMaskIntoConstraints="NO" id="L2g-ea-cKA" userLabel="profilePhoto">
+                                        <rect key="frame" x="94" y="80" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB3-EA-zHd" userLabel="Desce em 5!">
+                                        <rect key="frame" x="244" y="44" width="157" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="desce em 5!" title=""/>
+                                    </button>
+                                    <visualEffectView hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dFZ-Um-iW2">
+                                        <rect key="frame" x="8" y="-13" width="413" height="316"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dfp-jh-XKb">
+                                            <rect key="frame" x="0.0" y="0.0" width="413" height="316"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <blurEffect style="systemUltraThinMaterialLight"/>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.92941176469999998" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="saA-S3-UJO">
+                                <rect key="frame" x="0.0" y="300" width="414" height="596"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TA3-94-8PF" userLabel="return home">
+                                <rect key="frame" x="356" y="840" width="48" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="back" title=""/>
+                                <connections>
+                                    <action selector="returnHome" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Wn-5F-pot"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.92941176470588238" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="aboutButton" destination="bcs-RT-Hrm" id="zvS-Ad-SDT"/>
+                        <outlet property="aboutImage" destination="saA-S3-UJO" id="n18-2a-fdg"/>
+                        <outlet property="blur" destination="dFZ-Um-iW2" id="Wo8-rb-KRb"/>
+                        <outlet property="confirmButton" destination="7pz-By-YD2" id="LFO-2Z-lJz"/>
+                        <outlet property="destinationTextField" destination="sgd-pq-JBn" id="iqT-KR-42N"/>
+                        <outlet property="detailLabel" destination="XaV-sH-HFA" id="ilO-fe-V1p"/>
+                        <outlet property="detailTextField" destination="bYq-iB-O6C" id="3wu-ks-VQl"/>
+                        <outlet property="memezin" destination="4ua-vT-kun" id="0lr-Ih-a29"/>
+                        <outlet property="originTextField" destination="1pg-cu-dLQ" id="Q8e-cO-Eva"/>
+                        <outlet property="passFour" destination="fwc-CD-iWl" id="EEs-Dl-KYJ"/>
+                        <outlet property="passOne" destination="du0-nW-LUv" id="oHG-eg-SQ4"/>
+                        <outlet property="passThree" destination="zdw-OC-UgF" id="CTk-UD-Apf"/>
+                        <outlet property="passTwo" destination="ehi-lz-sW4" id="QQu-88-PUv"/>
+                        <outlet property="passengerLabel" destination="X3r-rF-nMU" id="Faf-tl-UWV"/>
+                        <outlet property="passengerTextField" destination="dgg-P4-l3f" id="NDI-az-vG0"/>
+                        <outlet property="recalcButton" destination="CyX-Vu-BIz" id="h3a-Qd-yYQ"/>
+                        <outlet property="returnButton" destination="TA3-94-8PF" id="okb-fc-E9m"/>
+                        <outlet property="routeLabel" destination="r3Y-Zy-eLR" id="6rd-hq-lzt"/>
+                        <outlet property="toBlurView" destination="J6z-lR-HZy" id="yD4-6V-5fz"/>
+                        <outlet property="toHideView" destination="AYd-GK-83a" id="Dik-lF-9Mv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Button2" width="375" height="134"/>
+        <image name="Mask group" width="133" height="133"/>
+        <image name="Rectangle 27" width="336" height="40"/>
+        <image name="about" width="375" height="532"/>
+        <image name="about icon" width="42" height="42"/>
+        <image name="back" width="24" height="24.5"/>
+        <image name="confirma" width="375" height="134"/>
+        <image name="desce em 5!" width="178" height="108"/>
+        <image name="travel-memes-funny-hilarious" width="1280" height="960"/>
+    </resources>
+</document>
